@@ -44,6 +44,7 @@ body.drawer-navbar.drawer-fixed {
 
 /* --------- End Navigation Styles ------------ */
 
+
 /*Controls content positioning in fullPage */
 .fp-tableCell {
     display: block;
@@ -81,9 +82,8 @@ body.drawer-navbar.drawer-fixed {
 
 
 
-.test1 {
-    background: blue;
-    height: 700px;
+.paper {
+    background: url('../img/paper-bg.jpg');
 }
 
 .test2 {
