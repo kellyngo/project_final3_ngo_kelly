@@ -7,6 +7,10 @@
     font-family: 'Old Standard TT', serif;
 }
 
+html {
+    min-width: 375px;
+}
+
 /* --------- Navigation Styles ------------ */
 body.drawer-navbar.drawer-fixed {
     padding: 0em;
@@ -32,7 +36,6 @@ body.drawer-navbar.drawer-fixed {
 
 .drawer-default .drawer-menu-item {
     padding: .5em;
-    display: list-item;
 }
 
 .drawer-default .drawer-footer {
@@ -120,14 +123,14 @@ h2 {
     margin-top: 1em;
 }
 
-ul {
+.location ul {
     list-style: none;
     text-align: left;
     width: 60%;
     margin: auto;
 }
 
-ul li {
+.location ul li {
     line-height: 1.7em;
 }
 
@@ -161,6 +164,7 @@ ul li {
 
 .wrapper-slides ul{
     text-align: center;
+    list-style: none;
 }
 
 .wrapper-slides ul li{
@@ -186,21 +190,29 @@ ul li {
         top: 30%;
 }
 
-
-
-
-
-
-
-.test2 {
-    background: red;
-    height: 700px;
+.specials-wrapper {
+    display: inline-block;
+    width: 100%;
 }
 
-.test3 {
-    background: green;
-    height: 700px;
+.fa {
+    color: #aba000;
 }
+
+.specials {
+    padding: 1em;
+    border: solid 1px #aba000;
+    margin-bottom: 2em;
+}
+
+.specials h2 {
+    margin: 0;
+}
+
+
+
+
+
 
 /* ------- Starts 945px styles ------- */
 @media (min-width: 945px) {
