@@ -139,11 +139,35 @@ ul li {
 
 .wrapper-slides {
     margin: auto;
-    width: 90%;
+    width: 70%;
     text-align: center;
     margin-top: 1em;
     height: 80%;
 }
+
+.inner-slide-wrapper {
+    padding: 10%;
+}
+
+.inner-slide-wrapper h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.wrapper-slides ul{
+    text-align: center;
+}
+
+.wrapper-slides ul li{
+    line-height: 1.2em;
+    padding-bottom: 1em;
+}
+
+
+.fp-controlArrow {
+    top: 55%;
+}
+
 
 
 
@@ -168,7 +192,7 @@ ul li {
 }
 
 .drawer-default li, .drawer-default a, .drawer-default .drawer-brand {
-    display: inline-block;
+    display: inline;
 }
 
 } /* --- End 945px styles -- */
