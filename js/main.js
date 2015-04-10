@@ -13,4 +13,20 @@ $(document).ready(function(){
 
     $(".drawer").drawer();
 
+    $(".starters").backstretch(
+      "img/starters.jpg"
+    );
+
+    $(".mains").backstretch(
+      "img/mains.jpg"
+    );
+
+    $(".dessert").backstretch(
+      "img/dessert.jpg"
+    );
+
+    $(".drinks").backstretch(
+      "img/drinks.jpg"
+    );
+
 });
