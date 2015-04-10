@@ -131,6 +131,20 @@ ul li {
     line-height: 1.7em;
 }
 
+/*-- Making the slides work */
+
+.menu h1 {
+    padding-top: 4rem;
+}
+
+.wrapper-slides {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    margin-top: 1em;
+    height: 80%;
+}
+
 
 
 
