@@ -4,6 +4,7 @@
     border: 0;
     font-size: 14px;
     color: #312d33;
+    font-family: 'Old Standard TT', serif;
 }
 
 .home {
@@ -35,10 +36,15 @@ body.drawer-navbar.drawer-fixed {
 
 .drawer-default ul {
     text-align: center;
+    font-weight: 700;;
 }
 
 .drawer-default li, .drawer-default a, .drawer-default .drawer-brand {
     display: inline-block;
+}
+
+.drawer-default .drawer-menu-item a {
+    color: white;
 }
 
 .drawer-default .drawer-menu-item {
