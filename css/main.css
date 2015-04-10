@@ -25,3 +25,27 @@
     height: 700px;
 }
 
+body.drawer-navbar.drawer-fixed {
+    padding: 0;
+}
+
+.drawer-default {
+    background: rgba(49,45,51, .7)
+}
+
+.drawer-default ul {
+    text-align: center;
+}
+
+.drawer-default li, .drawer-default a, .drawer-default .drawer-brand {
+    display: inline-block;
+}
+
+.drawer-default .drawer-menu-item {
+    padding: 1.2em;
+}
+
+.drawer-default .drawer-footer {
+    height: 0;
+}
+
