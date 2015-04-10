@@ -18,7 +18,8 @@ body.drawer-navbar.drawer-fixed {
 
 .drawer-default ul {
     text-align: center;
-    font-weight: 700;;
+    font-weight: 700;
+    margin: auto;
 }
 
 .drawer-default li, .drawer-default a, .drawer-default .drawer-brand {
