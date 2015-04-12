@@ -31,4 +31,8 @@ $(document).ready(function(){
       "img/drinks.jpg"
     );
 
+    $(".footer").backstretch(
+      "img/london.jpg"
+    );
+
 });
