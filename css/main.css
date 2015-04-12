@@ -124,7 +124,7 @@ p {
 }
 
 .top-space {
-    margin-top: 1em;
+    margin-top: 1.5em;
 }
 
 h2 {
@@ -137,6 +137,7 @@ h2 {
     text-align: left;
     width: 60%;
     margin: auto;
+    padding-bottom: 2em;
 }
 
 .location ul li {
@@ -244,6 +245,7 @@ h2 {
 
 .contact-wrapper .black-frame {
     margin-top: 1em;
+    margin-bottom: 3em;
 }
 
 .gift-card {
@@ -297,7 +299,7 @@ button {
 }
 
 .footer img {
-    width: 80%;
+    width: 70%;
 }
 
 .footer p {
