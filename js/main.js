@@ -9,7 +9,9 @@ $(document).ready(function(){
     //], {duration: 3000, fade: 750}
     );
 
-    $('#fullpage').fullpage();
+    $('#fullpage').fullpage( {
+      scrollOverflow: true,
+    });
 
     $(".drawer").drawer();
 

@@ -209,6 +209,19 @@ h2 {
     margin: 0;
 }
 
+.cat {
+    width: 90%;
+    margin: 5% 0 5% 0;
+}
+
+.contact-wrapper p {
+    text-align: left
+}
+
+.contact-wrapper span {
+    text-align: center;
+}
+
 
 
 
