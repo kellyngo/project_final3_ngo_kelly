@@ -94,7 +94,7 @@ body.drawer-navbar.drawer-fixed {
 }
 
 h1 {
-    margin-top: 4rem;
+    padding-top: 4rem;
     text-align: center;
     font-size: 2rem;
 }
@@ -116,6 +116,8 @@ p {
 
 .black-frame {
     border: solid 1px #312d33;
+    max-width: 445px;
+    margin: auto;
 }
 
 .map {
@@ -145,10 +147,6 @@ h2 {
 }
 
 /*-- Making the slides work */
-
-.menu h1 {
-    padding-top: 4rem;
-}
 
 .wrapper-slides {
     margin: auto;
@@ -304,6 +302,22 @@ button {
 
 .footer p {
     color: white;
+}
+
+/* ------- Starts 945px styles ------- */
+@media (min-width: 655px) {
+
+.specials {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+.contact-wrapper {
+    width: 80%;
+    margin: auto;
+}
+
 }
 
 
