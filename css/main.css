@@ -199,7 +199,7 @@ h2 {
 }
 
 .specials-wrapper {
-    display: inline-block;
+    margin: auto;
     width: 100%;
 }
 
@@ -304,7 +304,7 @@ button {
     color: white;
 }
 
-/* ------- Starts 945px styles ------- */
+/* ------- Starts 655px styles ------- */
 @media (min-width: 655px) {
 
 .specials {
@@ -316,6 +316,69 @@ button {
 .contact-wrapper {
     width: 80%;
     margin: auto;
+}
+
+}
+
+/* ------- Starts 750px styles ------- */
+@media (min-width: 750px) {
+
+.logo {
+    width: 80%;
+    margin-top: 12em;
+}
+
+.calc-loc {
+    width: calc(100% / 2);
+    float: left;
+    margin-top: 2.5em;
+}
+
+.menu h1 {
+    padding-top: 3rem;
+}
+
+.specials-wrapper {
+    margin-top: 2em;
+}
+
+.specials {
+    float: left;
+    width: calc(100%/2.3);
+    margin: .5em;
+    padding-bottom: 3em;
+    padding-top: 3em;
+}
+
+.contact-wrapper h1 {
+    padding-top: 0;
+    margin-top: 2.5rem;
+}
+
+.contact-wrapper p {
+    text-align: center;
+}
+
+.contact-info {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 2.1rem;
+}
+
+.reservations {
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.floo {
+    margin-top: 1em;
+}
+
+.floo-content {
+    font-size: 1.1rem;
+    float: left;
+    width: calc(100%/2.2);
+    padding-right: 1em;
 }
 
 }
