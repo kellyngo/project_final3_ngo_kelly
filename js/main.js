@@ -12,8 +12,9 @@ $(document).ready(function(){
     $('#fullpage').fullpage( {
       scrollOverflow: true,
       menu: true,
-      anchors: ['homePage', 'locationPage', 'menuPage', 'specialsPage', 'contactPage', 'giftsPage'],
-      menu: '#myMenu'
+      anchors: ['homePage', 'locationPage', 'menuPage', 'specialsPage', 'contactPage', 'giftsPage', 'footerPage'],
+      menu: '#myMenu',
+      slidesNavigation: true
     });
 
     $(".drawer").drawer();
