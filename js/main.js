@@ -31,7 +31,7 @@ $(document).ready(function(){
       "img/drinks.jpg"
     );
 
-    $(".footer").backstretch(
+    $(".footer-bg").backstretch(
       "img/london.jpg"
     );
 
