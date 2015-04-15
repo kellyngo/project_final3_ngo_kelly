@@ -415,18 +415,3 @@ menu h1 {
 
 
 
-
-
-
-/* ------- Starts 945px styles ------- */
-@media (min-width: 945px) {
-
-.drawer-default .drawer-menu-item {
-    padding: 1.2em 2em 1.2em 2em;
-}
-
-.drawer-default li, .drawer-default a, .drawer-default .drawer-brand {
-    display: inline;
-}
-
-} /* --- End 945px styles -- */
