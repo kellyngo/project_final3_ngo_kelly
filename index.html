@@ -30,13 +30,13 @@
   <div class="drawer-main drawer-default">
     <nav class="drawer-nav" role="navigation">
 
-      <ul class="drawer-menu">
-        <li class="drawer-menu-item"><a href="#">HOME</a></li>
-        <li class="drawer-menu-item"><a href="#">LOCATION & HOURS</a></li>
-        <li class="drawer-menu-item"><a href="#">MENU</a></li>
-        <li class="drawer-menu-item"><a href="#">SPECIALS</a></li>
-        <li class="drawer-menu-item"><a href="#">CONTACT & RESERVATIONS</a></li>
-        <li class="drawer-menu-item"><a href="#">GIFT CARDS</a></li>
+      <ul id="myMenu" class="drawer-menu">
+        <li data-menuanchor="homePage" class="drawer-menu-item"><a href="#homePage">HOME</a></li>
+        <li data-menuanchor="locationPage" class="drawer-menu-item"><a href="#locationPage">LOCATION & HOURS</a></li>
+        <li data-menuanchor="menuPage" class="drawer-menu-item"><a href="#menuPage">MENU</a></li>
+        <li data-menuanchor="specialsPage" class="drawer-menu-item"><a href="#specialsPage">SPECIALS</a></li>
+        <li data-menuanchor="contactPage" class="drawer-menu-item"><a href="#contactPage">CONTACT & RESERVATIONS</a></li>
+        <li data-menuanchor="giftsPage" class="drawer-menu-item"><a href="#giftsPage">GIFT CARDS</a></li>
       </ul>
       <div class="drawer-footer"><span></span></div>
     </nav>
@@ -49,7 +49,7 @@
 <div id="fullpage">
 
 <!-- Begin Home Page -->
-  <div class="section home">
+  <div class="section home" data-anchor="homePage">
     <header class="logo gold-frame">
         <div class="black-background">
           <img src="img/leaky-cauldron-logo-white.png" alt="The Leaky Cauldron Logo"/>
@@ -58,7 +58,7 @@
   </div>
 
 <!-- Begin Location -->
-  <div class="section paper">
+  <div class="section paper" data-anchor="locationPage">
     <h1>Location & Hours</h1>
       <p>(Info for muggles)</p>
     <div class="wrapper location">
@@ -89,7 +89,7 @@
 
 
 <!-- Begin Menu Page -->
-  <div class="section paper menu">
+  <div class="section paper menu" data-anchor="menuPage">
     <h1>Menu</h1>
       <div class="wrapper-slides black-frame">
 
@@ -183,7 +183,7 @@
 </div><!--end section -->
 
 <!-- Begin Specials Section -->
-<div class="section paper">
+<div class="section paper" data-anchor="specialsPage">
   <h1>Specials</h1>
     <div class="wrapper">
       <div class="specials-wrapper">
@@ -216,7 +216,7 @@
 </div><!--end section -->
 
 <!--Begin Contact section -->
-<div class="section paper">
+<div class="section paper" data-anchor="contactPage">
   <div class="wrapper">
     <div class="contact-wrapper">
       <h1>Contact & Reservations</h1>
@@ -245,7 +245,7 @@
 </div><!--end section -->
 
 <!--Start Gift Card Section -->
-<div class="section paper">
+<div class="section paper" data-anchor="giftsPage">
     <div class="wrapper">
       <h1>Give The Gift Of Leaky Goodness!</h1>
       <div class="gift-card">
