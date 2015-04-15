@@ -20,35 +20,33 @@ p, ul, li {
     font-size: 1.1em;
 }
 
-/* --------- Navigation Styles ------------ */
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------- Navigation Styles ----------------------------- */
+
 body.drawer-navbar.drawer-fixed {
     padding: 0em;
 }
 
 .drawer-default {
-    background: rgba(49,45,51, .7)
+    background: rgba(49,45,51, .8)
 }
 
-.drawer-default ul {
-    text-align: center;
-    font-weight: 700;
-    margin: auto;
-}
-
-.drawer-default li, .drawer-default a, .drawer-default .drawer-brand {
-    display: inline-block;
+.drawer-default li {
+    display: block;
 }
 
 .drawer-default .drawer-menu-item a {
     color: white;
+    font-size: 1.1em;
 }
 
 .drawer-default .drawer-menu-item {
-    padding: .5em;
+    padding: .8em;
 }
 
 .drawer-default .drawer-footer {
-    height: 0;
+    height: 1em;
 }
 
 .drawer-close, .drawer-open {
@@ -292,6 +290,15 @@ button {
 
 /* ------- Starts 655px styles ------- */
 @media (min-width: 655px) {
+
+.drawer-default ul {
+    text-align: center;
+}
+
+.drawer-default .drawer-menu-item {
+    padding: .8em 2em 1em 2em;
+    display: inline-block;
+}
 
 .contact-wrapper {
     width: 80%;
