@@ -345,12 +345,6 @@ menu h1 {
     margin-top: 13em;
 }
 
-.calc-loc {
-    width: calc(100% / 2);
-    float: left;
-    margin-top: 2.5em;
-}
-
 .menu h1 {
     padding-top: 3rem;
 }
