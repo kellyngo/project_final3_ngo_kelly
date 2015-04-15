@@ -320,12 +320,29 @@ button {
 
 }
 
-/* ------- Starts 750px styles ------- */
-@media (min-width: 750px) {
+/* ------- Starts 768px styles ------- */
+@media (min-width: 768px) {
+
+.drawer-default .drawer-menu-item a {
+    font-size: 1.3rem;
+    padding: .5em 1em;
+}
+
+h1 {
+    padding-top: 6rem;
+}
+
+menu h1 {
+    padding-top: 5rem;
+}
+
+.wrapper-slides {
+    margin-top: 0em
+}
 
 .logo {
     width: 80%;
-    margin-top: 12em;
+    margin-top: 13em;
 }
 
 .calc-loc {
@@ -352,7 +369,7 @@ button {
 
 .contact-wrapper h1 {
     padding-top: 0;
-    margin-top: 2.5rem;
+    margin-top: 6rem;
 }
 
 .contact-wrapper p {
@@ -365,8 +382,12 @@ button {
     line-height: 2.1rem;
 }
 
-.reservations {
-    font-size: 1.1rem;
+.reservations h2 {
+    text-align: left;
+}
+
+.reservations p {
+    font-size: 1.2rem;
     text-align: left;
 }
 
@@ -378,7 +399,16 @@ button {
     font-size: 1.1rem;
     float: left;
     width: calc(100%/2.2);
-    padding-right: 1em;
+    margin-right: 1em;
+}
+
+.floo-content p {
+    text-align: left;
+}
+
+.gift-card {
+    width: 80%;
+    margin: auto
 }
 
 }
