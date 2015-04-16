@@ -294,7 +294,7 @@ h2 {
     -moz-box-shadow: 0px 0px 15px 1px rgba(105,103,105,1);
     box-shadow: 0px 0px 15px 1px rgba(105,103,105,1);
     margin-top: 1em;
-    margin-bottom: 1.5em;
+    margin-bottom: 2em;
 }
 
 .gift-card h2 {
@@ -470,7 +470,9 @@ menu h1 {
 
 .gift-card {
     width: 80%;
-    margin: auto
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 }
