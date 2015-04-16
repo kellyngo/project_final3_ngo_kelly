@@ -362,6 +362,10 @@ button p {
     font-size: 1.5em;
 }
 
+button a {
+    text-decoration: none;
+}
+
 .fa-arrow-up {
     color: white;
 }
