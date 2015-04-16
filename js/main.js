@@ -14,7 +14,6 @@ $(document).ready(function(){
       menu: true,
       anchors: ['homePage', 'locationPage', 'menuPage', 'specialsPage', 'contactPage', 'giftsPage', 'footerPage'],
       menu: '#myMenu',
-      slidesNavigation: true
     });
 
     $(".drawer").drawer();
