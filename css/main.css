@@ -334,10 +334,27 @@ button {
     font-family: 'Old Standard TT', serif;
     font-weight: 700;
     color: white;
+        -webkit-transition: background-color .4s;
+        transition:background-color .4s;
+}
+
+button:hover {
+    background: #aba000;
+}
+
+button p {
+    color: white;
+    font-size: 1.5em;
+}
+
+.fa-arrow-up {
+    color: white;
 }
 
 .footer img {
-    width: 70%;
+    width: 100%;
+    margin-top: 15%;
+    margin-bottom: 15%;
 }
 
 .footer p {
@@ -380,6 +397,11 @@ button {
 
 .fa-2x {
   font-size: 3em;
+}
+
+.footer img {
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 }
@@ -475,6 +497,16 @@ menu h1 {
     margin-bottom: 2em;
 }
 
+button {
+    margin-top: 5%;
+}
+
+.footer img {
+    width: 80%;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
 }
 
 /* ------- Starts 1025px styles ------- */
@@ -488,6 +520,11 @@ menu h1 {
 
 .logo {
     width: 70%;
+}
+
+
+.footer img {
+    width: 65%;
 }
 
 }
