@@ -310,6 +310,10 @@ button {
 /* ------- Starts 768px styles ------- */
 @media (min-width: 768px) {
 
+.drawer-default .drawer-menu-item {
+    padding: 1em .2em .5em .2em;
+}
+
 .drawer-default .drawer-menu-item a {
     font-size: 1.3rem;
     padding: .5em 1em;
@@ -382,5 +386,15 @@ menu h1 {
 
 }
 
+/* ------- Starts 1025px styles ------- */
+
+
+@media (min-width: 1025px) {
+
+.drawer-default .drawer-menu-item {
+    padding: 1em .6em .5em .6em;
+}
+
+}
 
 
