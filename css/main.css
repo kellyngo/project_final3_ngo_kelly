@@ -441,6 +441,10 @@ button a {
     width: 75%;
 }
 
+.map-wrapper .black-frame {
+    margin-top: 1em;
+}
+
 h1 {
     padding-top: 6rem;
 }

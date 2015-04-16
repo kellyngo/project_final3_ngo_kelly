@@ -1,12 +1,11 @@
 $(document).ready(function(){
 
-    $(".home").backstretch(
-        //[
+    $(".home").backstretch([
       "img/sandwich.jpg"
-    //, "img/burger.jpg"
-    //, "img/duck.jpg"
-    //, "img/soup.jpg"
-    //], {duration: 3000, fade: 750}
+    , "img/burger.jpg"
+    , "img/duck.jpg"
+    , "img/soup.jpg"
+    ], {duration: 2250, fade: 750}
     );
 
     $('#fullpage').fullpage( {
@@ -39,3 +38,4 @@ $(document).ready(function(){
     );
 
 });
+
