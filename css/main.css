@@ -92,7 +92,9 @@ body.drawer-navbar.drawer-fixed {
 }
 
 .map-wrapper {
-    margin-top: 2em
+    margin-top: 2em;
+    max-width: 420px;
+    margin: auto;
 }
 
 h1 {
@@ -118,7 +120,6 @@ p {
 
 .black-frame {
     border: solid 1px #312d33;
-    max-width: 420px;
     margin: auto;
 }
 
@@ -157,11 +158,11 @@ h2 {
     text-align: center;
     margin-top: 1em;
     margin-bottom: 1em;
-    height: 75%;
+    height: 70%;
 }
 
 .inner-slide-wrapper {
-    padding: 10%;
+    padding-top: 1.5em;
 }
 
 .inner-slide-wrapper h3 {
@@ -198,7 +199,8 @@ h2 {
     margin: auto;
     font-weight: 400;
     position: relative;
-        top: 30%;
+        top: 20%;
+  background: rgba(49,45,51, .6)
 }
 
 .fp-tableCell {
