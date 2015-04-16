@@ -258,16 +258,18 @@ h2 {
     }
 }
 
+.contact h4 {
+    font-size: 1.3em;
+}
+
 .contact-info p {
     font-size: 1.2em;
     line-height: 2em;
-    width: 80%;
-    margin: auto;
+    margin-bottom: 1em;
 }
 
 .fa-facebook-official {
     padding-right: .5em;
-    margin-top: .5em;
 }
 
 .reservations p {
@@ -281,7 +283,18 @@ h2 {
     width: 65%;
 }
 
+.floo-content {
+    margin-bottom: 1em;
+}
 
+.floo {
+    width:95%;
+}
+
+.cat-wrapper {
+    max-width: 420px;
+    margin: auto;
+}
 
 .cat {
     width: 90%;
@@ -453,13 +466,8 @@ menu h1 {
     height: 65%;
 }
 
-.contact-wrapper h1 {
-    padding-top: 0;
-    margin-top: 6rem;
-}
-
-.contact-wrapper p {
-    text-align: center;
+.contact h4 {
+    margin-top: 2em;
 }
 
 .contact-info {
@@ -469,12 +477,7 @@ menu h1 {
 }
 
 .reservations h2 {
-    text-align: left;
-}
-
-.reservations p {
-    font-size: 1.2rem;
-    text-align: left;
+    margin-top: 2em;
 }
 
 .floo {
@@ -483,13 +486,12 @@ menu h1 {
 
 .floo-content {
     font-size: 1.1rem;
-    float: left;
-    width: calc(100%/2.2);
-    margin-right: 1em;
+    width: 90%;
+    margin: auto;
 }
 
 .floo-content p {
-    text-align: left;
+    margin-bottom: 1em;
 }
 
 .gift-card {
@@ -524,6 +526,31 @@ button {
     width: 70%;
 }
 
+.contact h4 {
+  font-size: 1.7em;
+}
+
+.contact-info p {
+  font-size: 1.5em;
+  line-height: 1.7em;
+  margin-bottom: .5em;
+}
+
+.reservations h2 {
+  font-size: 2.5em;
+}
+
+.reservations p {
+  font-size: 1.5em;
+}
+
+.floo-content {
+    width: 80%;
+}
+
+.floo-content p {
+    font-size: 1.2em;
+}
 
 .footer img {
     width: 65%;
