@@ -256,30 +256,34 @@ h2 {
     }
 }
 
+.contact-info p {
+    font-size: 1.2em;
+    line-height: 2em;
+    width: 80%;
+    margin: auto;
+}
+
+.fa-facebook-official {
+    padding-right: .5em;
+    margin-top: .5em;
+}
+
+.reservations p {
+    font-size: 1.2em;
+    line-height: 2em;
+    width: 80%;
+    margin: auto;
+}
+
+.contact-info.fp-tableCell {
+    width: 65%;
+}
+
+
 
 .cat {
     width: 90%;
     margin: 5% 0 5% 0;
-}
-
-.contact-wrapper p {
-    text-align: left
-}
-
-.contact-wrapper span {
-    text-align: center;
-    padding-left: .3em;
-    padding-right: .3em;
-}
-
-.contact-wrapper p:nth-child(5) {
-    text-align: center;
-    padding-top: 1em;
-}
-
-.contact-wrapper .black-frame {
-    margin-top: 1em;
-    margin-bottom: 3em;
 }
 
 .gift-card {
