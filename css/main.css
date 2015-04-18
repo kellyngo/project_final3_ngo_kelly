@@ -222,40 +222,41 @@ h2 {
     font-size: 3.5em;
 }
 
-.tossing{
-    animation-name: tossing;
-    -webkit-animation-name: tossing;
+        /*--- Animations via http://www.justinaguilar.com/animations/ ---*/
+        .tossing{
+            animation-name: tossing;
+            -webkit-animation-name: tossing;
 
-    animation-duration: 2.5s;
-    -webkit-animation-duration: 2.5s;
+            animation-duration: 2.5s;
+            -webkit-animation-duration: 2.5s;
 
-    animation-iteration-count: infinite;
-    -webkit-animation-iteration-count: infinite;
-}
+            animation-iteration-count: infinite;
+            -webkit-animation-iteration-count: infinite;
+        }
 
-@keyframes tossing {
-    0% {
-        transform: rotate(-6deg);
-    }
-    50% {
-        transform: rotate(6deg);
-    }
-    100% {
-        transform: rotate(-6deg);
-    }
-}
+        @keyframes tossing {
+            0% {
+                transform: rotate(-6deg);
+            }
+            50% {
+                transform: rotate(6deg);
+            }
+            100% {
+                transform: rotate(-6deg);
+            }
+        }
 
-@-webkit-keyframes tossing {
-    0% {
-        -webkit-transform: rotate(-6deg);
-    }
-    50% {
-        -webkit-transform: rotate(6deg);
-    }
-    100% {
-        -webkit-transform: rotate(-6deg);
-    }
-}
+        @-webkit-keyframes tossing {
+            0% {
+                -webkit-transform: rotate(-6deg);
+            }
+            50% {
+                -webkit-transform: rotate(6deg);
+            }
+            100% {
+                -webkit-transform: rotate(-6deg);
+            }
+        }
 
 .contact h4 {
     font-size: 1.3em;
