@@ -20,8 +20,6 @@ p, ul, li {
     font-size: 1.1em;
 }
 
-/* -------------------------------------------------------------------------- */
-
 /* -------------------------- Navigation Styles ----------------------------- */
 
 body.drawer-navbar.drawer-fixed {
@@ -182,6 +180,7 @@ h2 {
 .wrapper-slides ul li{
     line-height: 1.2em;
     padding-bottom: 1em;
+    font-size: 1em;
 }
 
 
